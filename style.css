@@ -1717,6 +1717,7 @@ section {
   margin-bottom: var(--space-32);
 }
 
+
 .contact-category {
   padding: var(--space-24);
   text-align: center;
@@ -1743,9 +1744,9 @@ section {
   font-weight: var(--font-weight-semibold);
 }
 .contact-persons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
 }
 
 .contact-person h4 {
