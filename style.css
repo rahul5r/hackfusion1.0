@@ -357,6 +357,12 @@ h6 {
   font-size: var(--font-size-md);
 }
 
+a.btn.btn--primary:hover,
+a.btn.btn--primary:focus {
+  background-color: inherit !important; /* keep original background */
+  color: inherit !important;            /* keep original text color */
+}
+
 p {
   margin: 0 0 var(--space-16) 0;
 }

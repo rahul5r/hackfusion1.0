@@ -416,7 +416,7 @@ function initializeSponsorsNavigation() {
             
             updateNavActiveState('sponsors');
             
-            console.log('✅ Navigated to sponsors page');
+            console.log('Navigated to sponsors page');
         }
     }
     
@@ -428,7 +428,7 @@ function initializeSponsorsNavigation() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
             
             updateNavActiveState('home');
-            console.log('✅ Navigated to main page');
+            console.log('Navigated to main page');
         }
     }
     
