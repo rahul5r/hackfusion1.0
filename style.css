@@ -373,6 +373,35 @@ a {
   transition: color var(--duration-fast) var(--ease-standard);
 }
 
+/* Default Light Theme */
+.logo-dark {
+  display: none;
+}
+
+/* When dark mode is active */
+[data-color-scheme="dark"] .logo-light {
+  display: none;
+}
+
+[data-color-scheme="dark"] .logo-dark {
+  display: block;
+}
+
+.rules {
+  text-align: center; /* center titles and text */
+}
+
+.rules-grid {
+  display: flex;
+  flex-wrap: wrap;         /* allow wrapping on smaller screens */
+  justify-content: center; /* center all the rule-card divs */
+  gap: 2rem;               /* space between cards */
+}
+
+.rule-card {
+  max-width: 280px;        /* optional: keep consistent card width */
+  text-align: center;      /* center content inside each card */
+}
 a:hover {
   color: var(--color-primary-hover);
 }
