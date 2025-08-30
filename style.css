@@ -406,6 +406,17 @@ a:hover {
   color: var(--color-primary-hover);
 }
 
+.facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.facility-details li {
+    margin: 5px 0;      /* keeps spacing between items */
+}
+
+
 code,
 pre {
   font-family: var(--font-family-mono);
@@ -1549,7 +1560,28 @@ section {
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
 }
+.prize-additional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    width: 100%;
+}
 
+.plus-separator {
+    font-size: 2.5em;
+    color: #999;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.prize-additional h4 {
+    margin: 0;
+    color: #555;
+    font-size: 1.1em;
+    font-weight: 500;
+}
 .special-awards {
   margin: var(--space-20) 0;
 }
